@@ -31,12 +31,15 @@ nav {
 
 .nav-center h4 {
     color: black;
+    font-size: 25px;
     margin-left: 10px;
 }
 
 nav a {
     text-transform: capitalize;
     color: black;
+    font-weight: 700;
+    font-size: 25px;
     margin-right: 1rem;
 }
 
