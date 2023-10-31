@@ -1,16 +1,19 @@
+/*Global Styles*/
+
 a {
     text-decoration: none;
-  }
+}
 
 body{
     margin: 0px;
 }
 
-  ul {
+ul {
     list-style-type: none;
-  }
+}
 
-  
+/*Nav*/
+
 nav {
     background: white;
     height: 75px;
@@ -41,11 +44,13 @@ nav a:hover {
     background-color: black;
     color: white;
     box-shadow: black;
-  }
+}
 
 .nav-links {
     display: flex;
-  }
+}
+
+/*Container*/
 
 main {
     min-height: 600px;
@@ -55,7 +60,7 @@ main {
 
 .container {
     text-align: center;
-  }
+}
 
 .container h2 {
     background: black;
@@ -63,10 +68,7 @@ main {
     color: white;
     padding: 1rem;
     border-radius: 25px;
-
-
 }
-
 
 .btn-hero {
     text-transform: uppercase;
