@@ -17,6 +17,9 @@ main {
 
 .container {
     text-align: center;
+    border: 15px solid black;
+    box-shadow: 0 1px 3px black;
+    margin: 20px;
   }
 
 #value {
