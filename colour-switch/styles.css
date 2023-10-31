@@ -15,7 +15,6 @@ ul {
 nav a {
     text-transform: capitalize;
     color: black;
-    letter-spacing: 1px;
     margin-right: 1rem;
 }
 
