@@ -12,6 +12,7 @@ btn.addEventListener("click", function(){
     colour.textContent = colours[randomNumber];
 })
 
+// return number between 0-3
 function getRandomNumber(){
     return Math.floor(Math.random()*colours.length);
 }
