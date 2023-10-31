@@ -29,3 +29,8 @@ main {
     box-shadow: 0 1px 3px black;
     margin: 0.5rem;
 }
+
+.btn:hover{
+    color: white;
+    background: black;
+}
