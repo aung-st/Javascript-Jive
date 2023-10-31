@@ -12,5 +12,16 @@
 nav a {
     text-transform: capitalize;
     color: white;
+    letter-spacing: 1px;
+    margin-right: 1rem;
 }
-  
+
+.nav-links {
+    display: flex;
+  }
+
+main {
+    min-height: 600px;
+    display: grid;
+    place-items: center;
+}
