@@ -32,6 +32,7 @@ nav {
 .nav-center h4 {
     color: black;
     font-size: 25px;
+    margin: 0 auto;
     margin-left: 10px;
 }
 
