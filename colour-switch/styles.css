@@ -30,6 +30,10 @@ nav a {
     margin-right: 1rem;
 }
 
+nav a:hover {
+    background-color: black;
+  }
+
 .nav-links {
     display: flex;
   }
