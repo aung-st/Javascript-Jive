@@ -6,12 +6,12 @@
 }
 
 .nav-center h4 {
-    color: white;
+    color: black;
 }
 
 nav a {
     text-transform: capitalize;
-    color: white;
+    color: black;
     letter-spacing: 1px;
     margin-right: 1rem;
 }
