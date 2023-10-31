@@ -3,6 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
 
+.nav-center h4 {
+    color: white;
+}
+
+nav a {
+    text-transform: capitalize;
+    color: white;
+}
   
