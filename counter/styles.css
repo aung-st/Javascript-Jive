@@ -1,3 +1,9 @@
+body {
+    background: white;
+    color: black;
+    line-height: 1.5;
+  }
+
 main {
     display: grid;
     place-items: center;
@@ -6,3 +12,8 @@ main {
 .container {
     text-align: center;
   }
+
+#value {
+    font-size: 6rem;
+    font-weight: bold;
+}
