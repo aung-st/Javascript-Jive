@@ -2,16 +2,22 @@ a {
     text-decoration: none;
   }
 
-ul {
+body{
+    margin: 0px;
+}
+
+  ul {
     list-style-type: none;
   }
 
   
 nav {
     background: white;
-    height: 75Spx;
+    height: 75px;
     display: grid;
     align-items: center;
+    box-shadow: 0 1px 3px black;
+    
 }
 
 .nav-center {
@@ -32,6 +38,8 @@ nav a {
 
 nav a:hover {
     background-color: black;
+    color: white;
+    box-shadow: black;
   }
 
 .nav-links {
