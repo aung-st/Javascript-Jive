@@ -1,6 +1,18 @@
+a {
+    text-decoration: none;
+  }
+
 ul {
     list-style-type: none;
   }
+
+  
+nav {
+    background: white;
+    height: 75Spx;
+    display: grid;
+    align-items: center;
+}
 
 .nav-center {
     display: flex;
