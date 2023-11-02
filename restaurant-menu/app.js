@@ -11,7 +11,7 @@ const menu = [
     {
         id: 2,
         title: "pancakes",
-        category: "breakfast",
+        category: "sweet",
         price: 15,
         img: "./images/pancakes.png",
         desc: "For the stick figure with a sweet tooth"
@@ -19,7 +19,7 @@ const menu = [
     {
         id: 3,
         title: "pancakes",
-        category: "breakfast",
+        category: "savoury",
         price: 15,
         img: "./images/pancakes.png",
         desc: "For the stick figure with a sweet tooth"
@@ -27,7 +27,7 @@ const menu = [
     {
         id: 4,
         title: "pancakes",
-        category: "breakfast",
+        category: "drinks",
         price: 15,
         img: "./images/pancakes.png",
         desc: "For the stick figure with a sweet tooth"
@@ -51,12 +51,15 @@ const menu = [
 ];
 
 const sectionCenter = document.querySelector(".section-center");
+const btnContainer = document.querySelector(".btn-container");
 
 window.addEventListener("DOMContentLoaded",function(){
     displayMenuItems(menu);
+    displayMenuButtons();
 });
 
 function displayMenuItems(menuItems){
+
     let displayMenu = menuItems.map(function (item){
         
         return `<article class="menu-item">
@@ -76,3 +79,46 @@ function displayMenuItems(menuItems){
     displayMenu = displayMenu.join("");
     sectionCenter.innerHTML = displayMenu;
 };
+
+function displayMenuButtons(){
+    const categories = menu.reduce(
+        function (values,item){
+            if (!values.includes(item.category)){
+                values.push(item.category);
+            }
+            return values;
+            },
+        ["all"]
+);
+const categoryBtns = categories.map(
+    function(category){
+        return `<button type="button" class="filter-btn"
+        data-id=${category}>
+            ${category}
+        </button>`;
+})
+.join("");
+
+btnContainer.innerHTML = categoryBtns;
+const filterBtns = document.querySelectorAll(".filter-btn");
+
+filterBtns.forEach(function (btn){
+    btn.addEventListener("click", function(event){
+
+        const category = event.currentTarget.dataset.id;
+        const menuCategory = menu.filter(function (menuItem){
+            if (menuItem.category === category){
+                console.log(menuItem.category);
+                return menuItem;
+                }
+            });
+            
+        if (category === "all"){
+            console.log(category);
+            displayMenuItems(menu);
+        } else{
+            displayMenuItems(menuCategory);
+        }
+    });
+});
+}
