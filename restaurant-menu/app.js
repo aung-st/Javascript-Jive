@@ -4,7 +4,7 @@ const menu = [
         id: 1,
         title: "steak",
         category: "mains",
-        price: 15,
+        price: 20,
         img: "./images/steak.png",
         desc: "For medium rare there is another restaurant next door"
     },
@@ -12,7 +12,7 @@ const menu = [
         id: 2,
         title: "eggs",
         category: "mains",
-        price: 15,
+        price: 13,
         img: "./images/eggs.png",
         desc: "eggs without a single crisp"
     },
@@ -20,33 +20,49 @@ const menu = [
         id: 3,
         title: "chips",
         category: "sides",
-        price: 15,
+        price: 7,
         img: "./images/chips.png",
         desc: "Widely spread chips. A classic stick meal"
     },
     {
         id: 4,
         title: "pancakes",
-        category: "dessert",
-        price: 15,
+        category: "desserts",
+        price: 11,
         img: "./images/pancakes.png",
-        desc: "For the stick figure with a sweet tooth"
+        desc: "For the stick figure with a sweet tooth."
     },
     {
         id: 5,
         title: "choco shake",
         category: "drinks",
-        price: 15,
+        price: 9,
         img: "./images/chocoshake.png",
-        desc: "An extremely sweet drink with a deceptively meaty appearance"
+        desc: "An extremely sweet drink with a deceptively meaty appearance."
     },
     {
         id: 6,
         title: "special sip",
         category: "drinks",
-        price: 15,
+        price: 8,
         img: "./images/specialsip.png",
         desc: "Whats in it? Even we don't know!"
+    },
+    {
+        id: 7,
+        title: "empty plate",
+        category: "sides",
+        price: 6,
+        img: "./images/plate.png",
+        desc: "For the stick figure on a diet."
+    },
+    {
+        id: 8,
+        title: "brownie",
+        category: "desserts",
+        price: 10,
+        img: "./images/brownie.png",
+        desc: "Chocolate on chocolate with a drizzle of chocolate"
     }
 ];
 
