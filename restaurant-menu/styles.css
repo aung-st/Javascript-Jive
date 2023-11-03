@@ -23,6 +23,17 @@
     justify-content: center;
 }
 
+.filter-btn {
+    background: transparent;
+    border-color: gold;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+    padding: 0.4rem 0.75rem;
+    color: gold;
+    cursor: pointer;
+  }
+
 .photo {
     object-fit: cover;
     height: 200px;
