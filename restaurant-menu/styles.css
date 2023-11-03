@@ -11,8 +11,7 @@ h4 {
 }
 
 html{
-    margin: auto 0.75rem;
-    border: 5px double gray;
+    border: 0.75rem double black;
 }
 
 /* Menu */
@@ -29,7 +28,7 @@ html{
 .underline {
     width: 5rem;
     height: 0.25rem;
-    background: gold;
+    background: black;
     margin-left: auto;
     margin-right: auto;
 }
@@ -42,24 +41,24 @@ html{
 
 .filter-btn {
     background: transparent;
-    border-color: gold;
+    border-color: black;
     font-size: 1rem;
     text-transform: capitalize;
     margin: 0 0.5rem;
     padding: 0.4rem 0.75rem;
-    color: gold;
+    color: black;
     cursor: pointer;
   }
 
 .filter-btn:hover {
-    background: gold;
+    background: black;
     color: white;
 }
 
 .photo {
     object-fit: cover;
     height: 200px;
-    border: 0.25rem solid gold;
+    border: 0.25rem solid black;
     border-radius: 2rem;
 }
 .section-center {
@@ -72,7 +71,7 @@ html{
 }
 
 .price {
-    color: gold;
+    color: black;
 }
 
 .item-info header {
