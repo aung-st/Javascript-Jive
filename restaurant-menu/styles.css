@@ -1,3 +1,8 @@
+html{
+    margin: auto 0.75rem;
+    border: 5px double gray;
+}
+
 /* Menu */
 
 .menu {
