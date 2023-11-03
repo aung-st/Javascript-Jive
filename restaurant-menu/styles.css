@@ -29,3 +29,11 @@
     border: 0.25rem solid gold;
     border-radius: 2rem;
 }
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+    justify-items: center;
+}
