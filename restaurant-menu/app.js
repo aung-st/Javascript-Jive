@@ -2,51 +2,51 @@
 const menu = [
     {
         id: 1,
-        title: "pancakes",
-        category: "breakfast",
+        title: "steak",
+        category: "mains",
         price: 15,
-        img: "./images/pancakes.png",
-        desc: "For the stick figure with a sweet tooth"
+        img: "./images/steak.png",
+        desc: "For medium rare there is another restaurant next door"
     },
     {
         id: 2,
-        title: "pancakes",
-        category: "sweet",
+        title: "eggs",
+        category: "mains",
         price: 15,
-        img: "./images/pancakes.png",
-        desc: "For the stick figure with a sweet tooth"
+        img: "./images/eggs.png",
+        desc: "eggs without a single crisp"
     },
     {
         id: 3,
-        title: "pancakes",
-        category: "savoury",
+        title: "chips",
+        category: "sides",
         price: 15,
-        img: "./images/pancakes.png",
-        desc: "For the stick figure with a sweet tooth"
+        img: "./images/chips.png",
+        desc: "Widely spread chips. A classic stick meal"
     },
     {
         id: 4,
         title: "pancakes",
-        category: "drinks",
+        category: "dessert",
         price: 15,
         img: "./images/pancakes.png",
         desc: "For the stick figure with a sweet tooth"
     },
     {
         id: 5,
-        title: "pancakes",
-        category: "breakfast",
+        title: "choco shake",
+        category: "drinks",
         price: 15,
-        img: "./images/pancakes.png",
-        desc: "For the stick figure with a sweet tooth"
+        img: "./images/chocoshake.png",
+        desc: "An extremely sweet drink with a deceptively meaty appearance"
     },
     {
         id: 6,
-        title: "pancakes",
-        category: "breakfast",
+        title: "special sip",
+        category: "drinks",
         price: 15,
-        img: "./images/pancakes.png",
-        desc: "For the stick figure with a sweet tooth"
+        img: "./images/specialsip.png",
+        desc: "Whats in it? Even we don't know!"
     }
 ];
 
@@ -112,7 +112,7 @@ filterBtns.forEach(function (btn){
                 return menuItem;
                 }
             });
-            
+
         if (category === "all"){
             console.log(category);
             displayMenuItems(menu);
