@@ -14,7 +14,7 @@ const menu = [
         category: "mains",
         price: 13,
         img: "./images/eggs.png",
-        desc: "eggs without a single crisp"
+        desc: "Eggs without a single crisp."
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const menu = [
         category: "sides",
         price: 7,
         img: "./images/chips.png",
-        desc: "Widely spread chips. A classic stick meal"
+        desc: "Widely spread chips. A classic stick meal."
     },
     {
         id: 4,
@@ -62,7 +62,7 @@ const menu = [
         category: "desserts",
         price: 10,
         img: "./images/brownie.png",
-        desc: "Chocolate on chocolate with a drizzle of chocolate"
+        desc: "Chocolate on chocolate with a drizzle of chocolate."
     }
 ];
 
