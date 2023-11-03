@@ -34,6 +34,11 @@
     cursor: pointer;
   }
 
+.filter-btn:hover {
+    background: gold;
+    color: white;
+}
+
 .photo {
     object-fit: cover;
     height: 200px;
