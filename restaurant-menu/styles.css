@@ -41,3 +41,10 @@
 .price {
     color: gold;
 }
+
+.item-info header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px dashed gray;
+  }
+
