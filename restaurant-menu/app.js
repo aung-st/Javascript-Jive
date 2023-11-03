@@ -38,7 +38,7 @@ const menu = [
         category: "drinks",
         price: 9,
         img: "./images/chocoshake.png",
-        desc: "An extremely sweet drink with a deceptively meaty appearance."
+        desc: "An extremely sweet drink with a meaty appearance."
     },
     {
         id: 6,
