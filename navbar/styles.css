@@ -24,3 +24,7 @@ Navbar
     border-color: transparent;
     cursor: pointer;
 }
+
+.logo {
+    height: 40px;
+}
