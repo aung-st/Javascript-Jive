@@ -17,3 +17,10 @@ Navbar
     padding: 1rem;
   }
 
+.nav-toggle {
+    font-size: 1.5rem;
+    color: lightblue;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
