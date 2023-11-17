@@ -25,6 +25,10 @@ Navbar
     cursor: pointer;
 }
 
+.nav-toggle:hover {
+    transform: rotate(90deg);
+}
+
 .logo {
     height: 40px;
 }
