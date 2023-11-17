@@ -6,6 +6,7 @@ Global Styles
 
 body {
     background: lightgray;
+    font-family: Helvetica;
     line-height: 1.5;
   }
 
@@ -57,6 +58,7 @@ nav {
     text-transform: capitalize;
     display: block;
     padding: 0.5rem 1rem;
+    text-decoration: none;
 }
 
 .links a:hover {
