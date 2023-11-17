@@ -10,6 +10,10 @@ Navbar
 ===============
 */
 
+nav {
+    background: white;
+}
+  
 .nav-header {
     display: flex;
     align-items: center;
@@ -33,6 +37,11 @@ Navbar
     height: 40px;
 }
 
+.links {
+    height: auto;
+    display: flex;
+}
+
 .links a {
     color: gray;
     font-size: 1rem;
@@ -46,3 +55,4 @@ Navbar
     color: lightblue;
     padding-left: 1.5rem;
 }
+
