@@ -46,6 +46,17 @@ Sidebar
     align-items: center;
     padding: 1rem 1.5rem;
 }
+.close-btn {
+    font-size: 1.75rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: darkred;
+}
+.close-btn:hover {
+    color: lightcoral;
+    transform: rotate(360deg);
+}
 .logo {
     justify-self: center;
     height: 40px;
