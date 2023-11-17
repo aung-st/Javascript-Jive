@@ -68,6 +68,6 @@ nav {
 }
 
 .social-icons {
-    display: none;
+    display: flex;
 }
 
