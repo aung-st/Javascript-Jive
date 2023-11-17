@@ -4,6 +4,10 @@ Global Styles
 ===============
 */
 
+ul {
+    list-style-type: none;
+}
+
 /*
 =============== 
 Navbar
@@ -13,7 +17,7 @@ Navbar
 nav {
     background: white;
 }
-  
+
 .nav-header {
     display: flex;
     align-items: center;
