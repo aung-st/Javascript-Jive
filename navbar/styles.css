@@ -59,6 +59,7 @@ nav {
     display: block;
     padding: 0.5rem 1rem;
     text-decoration: none;
+    letter-spacing: 0.1rem;
 }
 
 .links a:hover {
