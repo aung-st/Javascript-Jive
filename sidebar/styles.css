@@ -102,3 +102,8 @@ Sidebar
 .show-sidebar {
     transform: translate(0);
 }
+@media screen and (min-width: 676px) {
+    .sidebar {
+        width: 400px;
+    }
+}
