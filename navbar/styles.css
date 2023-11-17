@@ -43,6 +43,7 @@ nav {
     background: transparent;
     border-color: transparent;
     cursor: pointer;
+    transition: all 0.3s linear;
 }
 
 .nav-toggle:hover {
@@ -54,8 +55,9 @@ nav {
 }
 
 .links {
-    height: auto;
-    display: flex;
+    height: 0;
+    transition: all 0.3s linear;
+    overflow: hidden;
 }
 
 .links a {
@@ -66,6 +68,7 @@ nav {
     padding: 0.5rem 1rem;
     text-decoration: none;
     letter-spacing: 0.1rem;
+    transition: all 0.3s linear;
 }
 
 .links a:hover {
@@ -74,8 +77,12 @@ nav {
     padding-left: 1.5rem;
 }
 
+.show-links {
+    height: 10rem;
+}
+
 .social-icons {
-    display: flex;
+    display: none;
 }
 
 .social-icons a {
