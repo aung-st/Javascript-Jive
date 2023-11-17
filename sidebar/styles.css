@@ -9,3 +9,13 @@ ul {
 a {
     text-decoration: none;
 }
+
+/*
+=============== 
+Sidebar
+===============
+*/
+.logo {
+    justify-self: center;
+    height: 40px;
+}
