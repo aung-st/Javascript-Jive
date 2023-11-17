@@ -4,6 +4,11 @@ Global Styles
 ===============
 */
 
+body {
+    background: lightgray;
+    line-height: 1.5;
+  }
+
 ul {
     list-style-type: none;
 }
