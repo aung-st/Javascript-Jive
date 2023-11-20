@@ -43,7 +43,9 @@ Questions
 }
 
 .question-title p {
-    margin-bottom: 0;
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
 }
 
 .question-btn {
@@ -62,4 +64,19 @@ Questions
   padding: 1rem 0 1rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
-
+/* hide text */
+.question-text {
+  display: none;
+}
+.show-text .question-text {
+  display: block;
+}
+.minus-icon {
+  display: none;
+}
+.show-text .minus-icon {
+  display: inline;
+}
+.show-text .plus-icon {
+  display: none;
+} 
