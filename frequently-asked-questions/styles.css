@@ -49,3 +49,8 @@ Questions
 .question-btn:hover {
     transform: rotate(90deg);
 }
+
+.question-text {
+  padding: 1rem 0 1rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
