@@ -1,5 +1,12 @@
 /*
 =============== 
+Global Styles
+===============
+*/
+
+
+/*
+=============== 
 Questions
 ===============
 */
@@ -20,7 +27,7 @@ Questions
 }
 
 .question {
-    background: white;
+    background: wheat;
     border-radius: 0.5rem;
     box-shadow: black;
     padding: 1.5rem 1.5rem 0 1.5rem;
