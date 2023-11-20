@@ -9,3 +9,15 @@ Modal
     display: grid;
     place-items: center;
   }
+
+.modal-btn {
+    margin-top: 2rem;
+    background: lime;
+    border-color: lime;
+    color: white;
+}
+
+.modal-btn:hover {
+    background: transparent;
+    color: lime;
+}
