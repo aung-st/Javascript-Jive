@@ -15,6 +15,7 @@ Questions
 }
 
 .section-center {
+    margin: 0 auto;
     max-width: 620px;
 }
 
@@ -54,3 +55,4 @@ Questions
   padding: 1rem 0 1rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
+
