@@ -1,0 +1,11 @@
+/*
+=============== 
+Modal
+===============
+*/
+.hero {
+    min-height: 100vh;
+    background: url("./images/ocean.jpg") center/cover no-repeat;
+    display: grid;
+    place-items: center;
+  }
