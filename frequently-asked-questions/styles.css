@@ -33,3 +33,19 @@ Questions
     text-transform: capitalize;
     padding-bottom: 1rem;
 }
+
+.question-title p {
+    margin-bottom: 0;
+}
+
+.question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: gold;
+}
+
+.question-btn:hover {
+    transform: rotate(90deg);
+}
