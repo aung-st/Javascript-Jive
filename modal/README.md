@@ -1,5 +1,5 @@
-# modal
+# Modal
 A simple modal interactable model window with an ocean background
 
-# hero
+# Hero
 The hero image was taken from https://www.pixelstalk.net/ocean-backgrounds-free-download/
