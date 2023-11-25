@@ -1,7 +1,22 @@
-.number{
+.number {
+    background-color: gray;
+    border: black;
+    border-style: solid;
+    cursor: pointer;
     font-weight: 700;
+    font-size: 2rem;
+    height:5rem;
+    width:5rem;
+
 }
 
-.cancel{
-    font-weight: 700;
+
+.operation {
+    background-color: orange;
+    border: black;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 2rem;
+    height:5rem;
+    width:5rem;
 }
