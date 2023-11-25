@@ -24,4 +24,18 @@
 .calculator-container{
     display: grid;
     grid-template-columns: 5rem 5rem 5rem 5rem;
+    padding: 20rem;
+}
+
+.output-container{
+    display: grid;
+    background-color: whitesmoke;
+    height:5rem;
+    width:19.65rem;
+    border: black;
+    border-style: solid;
+    overflow: auto; 
+    position: absolute;
+    right: 18.3rem;
+    top: 15.2rem;
 }
